@@ -1,4 +1,3 @@
-# RSA-crypto
+# RSA-pycrypto
 
-
-I belong to INDIA.
+RSA implemetation using pycrypto module in python
