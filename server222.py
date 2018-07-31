@@ -15,7 +15,7 @@ def generate_key():
 
 def main():
     sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-    host = socket.gethostbyname("Boyka")
+    host = socket.gethostbyname(socket.gethostname())
     port = 8000
     encrypt_str = "encrypted_message="
 
